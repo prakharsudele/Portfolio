@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    font-family: "Rubik", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+header
+{
+    background-image: url(portfolio\ background.jpg);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+    padding-top: 20px;
+} 
+
+.profile-card{
+    max-width: 350px;
+    width: 100%;
+    background:black;
+    box-shadow: 0px 5px 10px rgb(177, 177, 177);
+    border-radius: 25px;
+    padding: 25px;
+    display: inline-block;
+    flex-direction: column; 
+    align-items: centre;
+    transition: all 0.5s ease;
+}
+
+
+
+.image {
+    position: relative;
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+} 
+
+.image .profile-img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid 3px #FF7F3E;
+    display: flex;
+    align-items: center;
+}
+
+.text-data{
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    align-items: centre;
+}
+
+.text-data .name{
+    font-size: 22px;
+    font-weight: 500px;
+}
+
+.text-data .job{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.media-link i{
+    color: #FFDA78;
+}
+.media-link .link
+{
+    align-items: center;
+    justify-content: center;
+    color: black;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin: 5px 8px;
+    font-size: 20px;
+}
+
+.profile-card:hover
+{
+    transform: scale(1.15);
+}
+
+body{
+    background-image: url(portfolio\ background.jpg);
+    background-size: cover;
+
+}
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;}
+
+.box {
+    background: rgb(248, 88, 187);
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #000;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+
+.box:hover
+{
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+}
+
+.box2{
+    font-size: 15px;
+}
+.box3{
+    font-size: 15px;
+}
+
+.container a{
+    color: rgb(0, 17, 95);
+}
+.container a:hover
+{
+     text-decoration: underline;
+     color: rgb(0, 167, 0);
+}
